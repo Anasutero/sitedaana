@@ -1,0 +1,23 @@
+/* Reset default styles */
+body, h1, h2, p, img {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 100px;
+}
+
+nav i {
+  font-size: 24px;
+  color: #000;
+  cursor: pointer;
+}

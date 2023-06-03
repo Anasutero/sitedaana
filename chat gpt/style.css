@@ -1,0 +1,57 @@
+/* Reset default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .menu {
+    display: none;
+  }
+  
+  .menu ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu ul li {
+    margin-right: 10px;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Estilos para o botão de menu responsivo */
+  @media (max-width: 768px) {
+    .menu {
+      display: block;
+    }
+    
+    .menu ul {
+      flex-direction: column;
+    }
+    
+    .menu ul li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
